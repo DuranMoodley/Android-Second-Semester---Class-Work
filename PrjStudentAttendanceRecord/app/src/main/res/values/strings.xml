@@ -1,0 +1,17 @@
+<resources>
+    <string name="application_name">Student Attendance</string>
+    <string name="action_settings">Settings</string>
+    <string name="hint_student_number">Student Number</string>
+    <string name="title_activity_student_map">Map</string>
+    <string name="student_name">Student Name</string>
+    <string name="hint_course">Course</string>
+    <string name="hint_register">Register</string>
+    <string name="click_the_button_below_to_check_in">Click the Button below to Check In</string>
+    <string name="hint_enter_module_code">Enter Module Code</string>
+    <string name="validation_enter_in_all_fields">Please Enter Details in all fields</string>
+    <string name="information_to_user">Click the Button below to Check In</string>
+    <string name="confirmation_check_out_successful">Check Out Successful</string>
+    <string name="validation_module_code">Please Enter in Your Module Code</string>
+    <string name="error_message">Sorry, A problem has occurred. Please Restart Application.</string>
+    <!-- TODO: Remove or change this placeholder text -->
+</resources>
