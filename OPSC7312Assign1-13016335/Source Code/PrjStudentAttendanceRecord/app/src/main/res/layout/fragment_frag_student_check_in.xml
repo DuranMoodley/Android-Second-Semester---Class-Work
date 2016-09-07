@@ -1,0 +1,54 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="attendance.student.prjstudentattendancerecord.FragStudentCheckIn">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/click_the_button_below_to_check_in"
+        android:id="@+id/tvAddress"
+        android:layout_gravity="center_horizontal|top" />
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fab_location"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|center"
+        app:fabSize="normal"
+        android:layout_margin="@dimen/fab_margin"
+        android:src="@drawable/ic_action_location" />
+
+
+    <ProgressBar
+        style="?android:attr/progressBarStyleLarge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/prglocation"
+        android:indeterminate="false"
+        android:visibility="invisible"
+        android:layout_marginBottom="145dp"
+      />
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fab_endlocation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right|bottom"
+        app:fabSize="normal"
+        android:layout_margin="@dimen/fab_margin"
+        android:visibility="invisible" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/edtModuleCode"
+        android:layout_gravity="center"
+        android:hint="@string/hint_enter_module_code"
+        android:inputType="none" />
+</FrameLayout>

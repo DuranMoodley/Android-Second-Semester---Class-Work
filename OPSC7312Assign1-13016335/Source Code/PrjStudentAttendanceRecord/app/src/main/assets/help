@@ -1,0 +1,13 @@
+This application has been created for the sole purpose of tracking students attendance.
+
+At the start of the application, you had to enter in your basic details.
+In order to successful track your attendance, you need to Check in and Check out by clicking on the Red Button.
+However, this can only be achieved by first entering in the module code that you are checking into,
+Secondly, you need to ensure that your location settings are on and that you are at your designated venue.
+Once you have checked in you may close the application and return to it when your Lecture is complete and check out.
+You will receive a notifications welcoming you to your venue and to remind you to checkout once you have checked in.
+
+You may also view your own attendance report by selecting the report tab.
+All your details will be sent to the administrative office for verification.
+
+If there are any issues, please consult your lecturer.
